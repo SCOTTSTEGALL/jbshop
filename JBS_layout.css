@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+
+body{
+    margin-left: 5px;
+    margin-bottom: 5px;
+    background-color: tan;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body > header > nav ul li{
+    display: inline;
+}
+
+body > header > nav ul li a:hover{
+    color: blue;
+}
+
+img{
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+}
+
+address, footer{
+    border-style: dotted;
+    margin-right: 85%;
+}
